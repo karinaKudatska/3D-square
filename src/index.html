@@ -3,11 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
-    <link rel="stylesheet" href="./styles/main.scss">
+    <title>3D-square</title>
+    <link rel="stylesheet" href="./styles.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <div class="wrapper">
+      <div class="square">
+        <div class="square__side square__side--1"></div>
+        <div class="square__side square__side--2">
+          <video class="square__video" autoplay muted loop>
+            <source src='./videos/food-reel.mp4' type='video/mp4'>
+          </video>
+        </div>
+        <div class="square__side square__side--3"></div>
+        <div class="square__side square__side--4"></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
