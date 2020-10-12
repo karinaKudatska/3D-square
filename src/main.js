@@ -22,6 +22,6 @@ function setVisible(selector, visible) {
 }
 
 onReady(function() {
-  setVisible('.square`', true);
+  setVisible('.square', true);
   setVisible('.loader', false);
 });
